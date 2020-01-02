@@ -15755,8 +15755,18 @@ readers do not read off random characters that represent icons */
   font-family: "Courgette";
   src: url("../../public/fonts/Courgette-Regular.ttf");
 }
-h1 {
-  font-family: "Courgette", cursive;
+nav {
+  z-index: 9;
+}
+
+.carousel-inner {
+  top: 0;
+  position: absolute;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
