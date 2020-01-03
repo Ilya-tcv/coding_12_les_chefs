@@ -15770,11 +15770,15 @@ nav {
   z-index: 9;
 }
 
+header {
+  border-bottom: dashed black 4px;
+}
 header nav a {
   border-top: white solid 1px;
   border-bottom: white solid 1px;
   width: 80%;
   color: white;
+  text-decoration: none;
 }
 header nav .nav-link {
   display: flex;
