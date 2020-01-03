@@ -15755,18 +15755,33 @@ readers do not read off random characters that represent icons */
   font-family: "Courgette";
   src: url("../../public/fonts/Courgette-Regular.ttf");
 }
+body {
+  margin: 0;
+}
+body #carouselExampleIndicators {
+  filter: brightness(0.3);
+}
+
+#carouselExampleIndicators {
+  z-index: 1;
+}
+
 nav {
   z-index: 9;
 }
 
-.carousel-inner {
-  top: 0;
-  position: absolute;
+header nav a {
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  width: 80%;
+  color: white;
 }
-
-.logo {
+header nav .nav-link {
   display: flex;
   justify-content: center;
+}
+header nav #logo {
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */

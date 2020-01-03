@@ -3,13 +3,34 @@
 @import "./_icons.sass"
 @import "./_fonts.sass"
 
+body
+    margin: 0
+
+    #carouselExampleIndicators
+        filter: brightness(0.30)
+
+#carouselExampleIndicators 
+    z-index: 1
+
+
 nav
     z-index: 9
 
-.carousel-inner
-    top: 0
-    position: absolute
+// .carousel-inner
+//     top: 0
+//     position: absolute
 
-.logo
-    display: flex
-    justify-content: center
+header
+    nav
+        a
+            border-top: white solid 1px
+            border-bottom: white solid 1px
+            width: 80%
+            color: white
+        
+        .nav-link
+            display: flex
+            justify-content: center
+
+        #logo
+            width: 80%
