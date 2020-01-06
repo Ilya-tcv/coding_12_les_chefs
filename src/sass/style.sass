@@ -6,23 +6,18 @@
 body
     margin: 0
 
+
+// Header / Navbar
+header
+    border-bottom: dashed black 4px
+
+    // Filtre
     #carouselExampleIndicators
         filter: brightness(0.30)
 
-#carouselExampleIndicators 
-    z-index: 1
-
-
-nav
-    z-index: 9
-
-// .carousel-inner
-//     top: 0
-//     position: absolute
-
-header
-    border-bottom: dashed black 4px
     nav
+        z-index: 9
+
         a
             border-top: white solid 1px
             border-bottom: white solid 1px
@@ -33,6 +28,106 @@ header
         .nav-link
             display: flex
             justify-content: center
+            font-size: 0.8em
 
         #logo
             width: 80%
+
+    // Texte & Boutons Caroussel
+    .carbox
+        position: absolute
+        top: 17em
+        left: 16em
+        color: white
+        z-index: 15
+        display: flex
+        align-items: center
+        flex-direction: column
+        margin-bottom: 14px
+
+        .cartxt
+            font-family: $titre
+            display: flex
+            text-align: center
+            font-size: 3em
+            line-height: 1.7em
+
+            span:first-of-type
+                font-size: 2em
+            span:nth-of-type(2)
+                font-size: 2.1em
+                color: red
+            span:nth-of-type(3)
+                font-size: 1.5em
+            span:nth-of-type(4)
+                font-size: 1.5em
+
+        .carbtn
+            button
+                text-transform: uppercase
+                padding: 15px
+                border: none
+
+            button:first-child
+                background-color: white
+                color: black
+
+            button:last-child
+                background-color: red
+                color: white
+
+// Section 1
+
+.s1
+    background-image: url("../images/main_bg.jpg")
+    height: 100%
+
+    label
+        color: transparent
+
+    .container
+        background-color: white
+        margin-top: 1.2em
+        border: lightgrey solid 1px
+        position: relative
+
+        img
+            position: absolute
+        .cornerbox1
+            top: 0px
+            left: 0px
+        .cornerbox2
+            top: 0px
+            right: 0px
+        .cornerbox3
+            bottom: 0px
+            left: 0px
+        .cornerbox4
+            bottom: 0px
+            right: 0px
+        .soustitre
+            position: relative
+            
+        div:first-of-type
+            h1
+                font-family: $titre
+
+                span
+                    color: red
+                    font-size: 1.2em
+
+            p:first-of-type
+                margin-right: 15em
+                margin-left: 15em
+
+        .menulist
+            h1
+                font-family: $titre
+                
+                span
+                    color: red
+                    font-size: 1.2em
+
+            .title
+                .col-2
+                    font-family: $titre

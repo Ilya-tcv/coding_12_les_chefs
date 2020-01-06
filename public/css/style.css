@@ -15758,20 +15758,15 @@ readers do not read off random characters that represent icons */
 body {
   margin: 0;
 }
-body #carouselExampleIndicators {
-  filter: brightness(0.3);
-}
-
-#carouselExampleIndicators {
-  z-index: 1;
-}
-
-nav {
-  z-index: 9;
-}
 
 header {
   border-bottom: dashed black 4px;
+}
+header #carouselExampleIndicators {
+  filter: brightness(0.3);
+}
+header nav {
+  z-index: 9;
 }
 header nav a {
   border-top: white solid 1px;
@@ -15783,9 +15778,111 @@ header nav a {
 header nav .nav-link {
   display: flex;
   justify-content: center;
+  font-size: 0.8em;
 }
 header nav #logo {
   width: 80%;
+}
+header .carbox {
+  position: absolute;
+  top: 17em;
+  left: 16em;
+  color: white;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+header .carbox .cartxt {
+  font-family: "Courgette", cursive;
+  display: flex;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.7em;
+}
+header .carbox .cartxt span:first-of-type {
+  font-size: 2em;
+}
+header .carbox .cartxt span:nth-of-type(2) {
+  font-size: 2.1em;
+  color: red;
+}
+header .carbox .cartxt span:nth-of-type(3) {
+  font-size: 1.5em;
+}
+header .carbox .cartxt span:nth-of-type(4) {
+  font-size: 1.5em;
+}
+header .carbox .carbtn button {
+  text-transform: uppercase;
+  padding: 15px;
+  border: none;
+}
+header .carbox .carbtn button:first-child {
+  background-color: white;
+  color: black;
+}
+header .carbox .carbtn button:last-child {
+  background-color: red;
+  color: white;
+}
+
+.s1 {
+  background-image: url("../images/main_bg.jpg");
+  height: 100%;
+}
+.s1 label {
+  color: transparent;
+}
+.s1 .container {
+  background-color: white;
+  margin-top: 1.2em;
+  border: lightgrey solid 1px;
+  position: relative;
+}
+.s1 .container img {
+  position: absolute;
+}
+.s1 .container .cornerbox1 {
+  top: 0px;
+  left: 0px;
+}
+.s1 .container .cornerbox2 {
+  top: 0px;
+  right: 0px;
+}
+.s1 .container .cornerbox3 {
+  bottom: 0px;
+  left: 0px;
+}
+.s1 .container .cornerbox4 {
+  bottom: 0px;
+  right: 0px;
+}
+.s1 .container .soustitre {
+  position: relative;
+}
+.s1 .container div:first-of-type h1 {
+  font-family: "Courgette", cursive;
+}
+.s1 .container div:first-of-type h1 span {
+  color: red;
+  font-size: 1.2em;
+}
+.s1 .container div:first-of-type p:first-of-type {
+  margin-right: 15em;
+  margin-left: 15em;
+}
+.s1 .container .menulist h1 {
+  font-family: "Courgette", cursive;
+}
+.s1 .container .menulist h1 span {
+  color: red;
+  font-size: 1.2em;
+}
+.s1 .container .menulist .title .col-2 {
+  font-family: "Courgette", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
