@@ -15889,4 +15889,24 @@ header .carbox .carbtn button:last-child {
   flex-direction: column;
 }
 
+.s2 {
+  display: flex;
+  background-color: black;
+}
+.s2 hr {
+  background-color: white;
+  margin: 0;
+}
+.s2 h1 {
+  font-family: "Courgette", cursive;
+  color: white;
+}
+.s2 h1 span {
+  color: red;
+  font-size: 1.2em;
+}
+.s2 .container .row {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
