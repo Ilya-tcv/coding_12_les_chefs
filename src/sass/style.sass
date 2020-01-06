@@ -85,7 +85,7 @@ header
     label
         color: transparent
 
-    .container
+    .c1
         background-color: white
         margin-top: 1.2em
         border: lightgrey solid 1px
@@ -108,7 +108,7 @@ header
         .soustitre
             position: relative
             
-        div:first-of-type
+        .ourstory
             h1
                 font-family: $titre
 
@@ -116,18 +116,23 @@ header
                     color: red
                     font-size: 1.2em
 
-            p:first-of-type
+            p:last-child
                 margin-right: 15em
                 margin-left: 15em
 
         .menulist
             h1
                 font-family: $titre
-                
+
                 span
                     color: red
                     font-size: 1.2em
 
-            .title
-                .col-2
-                    font-family: $titre
+            .c2
+                .title
+                    .col-2
+                        font-family: $titre
+                        
+                        .row
+                            justify-content: center
+                            flex-direction: column

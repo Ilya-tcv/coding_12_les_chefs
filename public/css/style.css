@@ -15835,54 +15835,58 @@ header .carbox .carbtn button:last-child {
 .s1 label {
   color: transparent;
 }
-.s1 .container {
+.s1 .c1 {
   background-color: white;
   margin-top: 1.2em;
   border: lightgrey solid 1px;
   position: relative;
 }
-.s1 .container img {
+.s1 .c1 img {
   position: absolute;
 }
-.s1 .container .cornerbox1 {
+.s1 .c1 .cornerbox1 {
   top: 0px;
   left: 0px;
 }
-.s1 .container .cornerbox2 {
+.s1 .c1 .cornerbox2 {
   top: 0px;
   right: 0px;
 }
-.s1 .container .cornerbox3 {
+.s1 .c1 .cornerbox3 {
   bottom: 0px;
   left: 0px;
 }
-.s1 .container .cornerbox4 {
+.s1 .c1 .cornerbox4 {
   bottom: 0px;
   right: 0px;
 }
-.s1 .container .soustitre {
+.s1 .c1 .soustitre {
   position: relative;
 }
-.s1 .container div:first-of-type h1 {
+.s1 .c1 .ourstory h1 {
   font-family: "Courgette", cursive;
 }
-.s1 .container div:first-of-type h1 span {
+.s1 .c1 .ourstory h1 span {
   color: red;
   font-size: 1.2em;
 }
-.s1 .container div:first-of-type p:first-of-type {
+.s1 .c1 .ourstory p:last-child {
   margin-right: 15em;
   margin-left: 15em;
 }
-.s1 .container .menulist h1 {
+.s1 .c1 .menulist h1 {
   font-family: "Courgette", cursive;
 }
-.s1 .container .menulist h1 span {
+.s1 .c1 .menulist h1 span {
   color: red;
   font-size: 1.2em;
 }
-.s1 .container .menulist .title .col-2 {
+.s1 .c1 .menulist .c2 .title .col-2 {
   font-family: "Courgette", cursive;
+}
+.s1 .c1 .menulist .c2 .title .col-2 .row {
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
