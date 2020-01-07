@@ -15891,7 +15891,8 @@ header .carbox .carbtn button:last-child {
 
 .s2 {
   display: flex;
-  background-color: black;
+  background-image: url("../../public/images/team_background.jpg");
+  width: 100%;
 }
 .s2 hr {
   background-color: white;
@@ -15907,6 +15908,61 @@ header .carbox .carbtn button:last-child {
 }
 .s2 .container .row {
   color: white;
+}
+
+.s3 {
+  background-image: url("../images/main_bg.jpg");
+  height: 100%;
+}
+.s3 label {
+  color: transparent;
+}
+.s3 .c1 {
+  background-color: white;
+  margin-top: 1.2em;
+  border: lightgrey solid 1px;
+  position: relative;
+}
+.s3 .c1 img {
+  position: absolute;
+}
+.s3 .c1 .cornerbox1 {
+  top: 0px;
+  left: 0px;
+}
+.s3 .c1 .cornerbox2 {
+  top: 0px;
+  right: 0px;
+}
+.s3 .c1 .cornerbox3 {
+  bottom: 0px;
+  left: 0px;
+}
+.s3 .c1 .cornerbox4 {
+  bottom: 0px;
+  right: 0px;
+}
+.s3 .c1 .soustitre {
+  position: relative;
+}
+.s3 .container {
+  /*FORMULAIRE*/
+}
+.s3 .container .ourstory h1 {
+  font-family: "Courgette", cursive;
+}
+.s3 .container .ourstory h1 span {
+  color: red;
+  font-size: 1.2em;
+}
+.s3 .container .img-form {
+  background-image: url("../../public/images/book_table_bg.jpg");
+  background-size: cover;
+  width: 110vh;
+  height: auto;
+}
+.s3 .container .img-form input {
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
